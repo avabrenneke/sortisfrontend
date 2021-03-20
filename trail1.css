@@ -1,0 +1,294 @@
+.responsive-width {
+    font-size: 1vw;
+}
+/*Header*/
+.upperHeader {
+    background-color: #2B5EC0 !important;
+    color:#2B5EC0;
+}
+
+.lowFooter {
+    background-color: #2B5EC0 !important;
+    color:white;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 200; 
+    position: fixed;
+    bottom:0; 
+    width: 100%;
+    height: 25px;
+    border-top: 20px;
+}
+
+.fixed-bottom {
+    background-color: #2B5EC0 !important;
+    color:white !important;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 200;  
+}
+.titleHeader{
+    background-color: white;
+}
+
+.subheader {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.logo { 
+	top:15; 
+    right:41%; 
+    margin: 5;
+    position: relative;
+    margin-left: 10px;
+}
+/*END Header*/
+
+/*Nav Bar*/
+.menu-hover-lines {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: all 0.35s ease;
+    margin-left: 5px;
+    margin-top: 10px;
+  }
+  
+  .menu-hover-lines li a {
+    padding: 0.75rem 0;
+    color: rgba(10, 10, 10, 0.5);
+    position: relative;
+    margin-left: 1rem;
+  }
+  
+  .menu-hover-lines li:first-child a {
+    margin-left: 0;
+  }
+  
+  .menu-hover-lines li.active > a {
+    background-color: transparent;
+  }
+  
+  .menu-hover-lines a:before,
+  .menu-hover-lines a::after {
+    height: 3px;
+    position: absolute;
+    content: '';
+    transition: all 0.35s ease;
+    background-color: #1779ba;
+    width: 0;
+  }
+  
+  .menu-hover-lines a::before {
+    top: 0;
+    left: 0;
+  }
+  
+  .menu-hover-lines a::after {
+    bottom: 0;
+    right: 0;
+  }
+  
+  .menu-hover-lines a:hover,
+  .menu-hover-lines li.active > a {
+    color: #0a0a0a;
+    transition: all 0.35s ease;
+  }
+  
+  .menu-hover-lines a:hover::before,
+  .menu-hover-lines .active a::before,
+  .menu-hover-lines a:hover::after,
+  .menu-hover-lines .active a::after {
+    width: 100%;
+  }
+/*END Nav Bar*/
+  
+/*Search Cards*/
+.product-card {
+    background-color: white;
+    border: 1px solid #e6e6e6;
+    padding: 1rem;
+    margin: 20px;
+    width:25%;
+    border: 1px solid #AAAAAA;
+box-sizing: border-box;
+box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+margin-bottom: 50px;
+  }
+  
+  .product-card-thumbnail {
+    display: block;
+    position: relative;
+  }
+  
+  .product-card-title {
+    font-family: 'Open sans', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    line-height: 1.45rem;
+    margin-top: 1rem;
+    margin-bottom: 0;
+  }
+  
+  .product-card-desc {
+    color: #8a8a8a;
+    display: inline-block;
+    width: 45%;
+    margin: 5px;
+    font-family: 'Open sans', sans-serif;
+    font-size: 0.85rem;
+  }
+  
+  .product-card-price {
+    color: #3e3e3e;
+    display: inline-block;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-top: 0.8rem;
+  }
+  
+  .product-card-sale {
+    color: #cacaca;
+    display: inline-block;
+    font-size: 0.85rem;
+    margin-left: 0.3rem;
+    text-decoration: line-through;
+  }
+  
+  .product-card-colors {
+    display: block;
+    margin-top: 0.8rem;
+  }
+  
+  .product-card-color-option {
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+  }
+/*END Search Cards*/  
+
+/*Search Bar*/
+.translucent-form-overlay {
+    max-width: 100%;
+    width: 75%;
+    background-color: white;
+    padding: 20px;
+    color: #fefefe;
+    border: 1px solid #AAAAAA;
+box-sizing: border-box;
+box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+margin: 0 auto;
+margin-top: 50px;
+margin-bottom: 50px;
+  }
+  
+  .translucent-form-overlay .columns.row {
+    display: inline-block;
+    width: 49%;
+    padding: 10px;
+  }
+  
+  .translucent-form-overlay h3, .translucent-form-overlay label {
+    color: black;
+  }
+  
+  .translucent-form-overlay input, .translucent-form-overlay select {
+    color: #8a8a8a;
+  }
+  
+  .translucent-form-overlay input::-webkit-input-placeholder {
+    color: #8a8a8a;
+  }
+  
+  .translucent-form-overlay input:-ms-input-placeholder {
+    color: #8a8a8a;
+  }
+  
+  .translucent-form-overlay input::placeholder {
+    color: #8a8a8a;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  .button {
+    background-color:#2B5EC0 !important; 
+  }
+
+  .search-button {
+      width: 10% !important;
+      display: inline-block !important;
+      margin: 0 auto !important;
+      color:white !important;
+  }
+
+  .alignButton {
+    margin: 0 auto !important; 
+  }
+/*END Search Bar*/
+
+/*Footer*/
+.social-footer {
+  padding: 1rem;
+  background: #8a8a8a;
+  height: 10px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.copyright {
+    color: white;
+    text-align: center !important;
+}
+
+.social-footer .social-footer-icons .fa:hover {
+  color: #4a4a4a;
+  transition: color 0.3s ease-in;
+}
+/*END Footer*/
+
+/*Add Investor Page*/
+form .form-icons {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 15px;
+    border: 1px solid #AAAAAA;
+box-sizing: border-box;
+box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  form .form-icons h4 {
+    margin-bottom: 1rem;
+  }
+  
+  form .form-icons .input-group-label {
+    background-color:#2B5EC0;
+    border-color:#2B5EC0;
+  }
+  
+  form .form-icons .input-group-field {
+    border-color: #2B5EC0;
+  }
+  
+  form .form-icons .fa {
+    color: white;
+    width: 1rem;
+  }
+/*END Investor Page*/
+  
+
+  
